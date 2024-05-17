@@ -1,0 +1,96 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #133;
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* Cabeçalho da página */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo da seção de contato */
+.contact-info {
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #0066cc;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+}
